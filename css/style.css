@@ -51,5 +51,29 @@ footer{
     
 }
 .left{
+    width: 20%;
+    height: 450px;
+    border: 1px solid #ADCEDf ;
+    background-color: #ADCEDF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
     
+}
+.center{ 
+    width: 643px;
+    height: 450px;
+    border: 1px solid #ADCEDf ;
+    background-color: #ADCEDF;
+    margin:25px 20px;
+    float: left; 
+}
+ .right{
+    width: 20%;
+    height: 450px;
+    border: 1px solid #ADCEDf ;
+    background-color: #ADCEDF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: right;
 }
