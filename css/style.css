@@ -15,6 +15,7 @@
 body {
   margin: 20px auto;
   width: 60%;
+  border: 1 px solid black;
 }
 
 /* logo e barra */
@@ -25,9 +26,14 @@ header {
 
 .logo {
   width: 100px;
-  height: 60px;
+  /* height: 60px;
   border: 1px solid black;
-  background-color: white;
+  background-color: white; */
+}
+.logo-img{
+  width: 150px;
+  height: 100px;
+  padding: 10%;
 }
 .menu {
   width: 500px;
@@ -72,6 +78,7 @@ article {
 }
 
 .container {
+  width: 100%;
   height: 500px;
   background-color: #107de6;
   border: 1px solid #107de6;
@@ -98,7 +105,7 @@ article {
   float: left;
 }
 .center {
-  width: 643px;
+  width: 55%;
   height: 450px;
   border: 1px solid #adcedf;
   background-color: #adcedf;
