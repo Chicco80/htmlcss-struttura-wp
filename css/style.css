@@ -20,47 +20,81 @@ body {
 
 /* logo e barra */
 header {
-  height: 120px;
-  background-color: #e579e6;
+  width: 100%;
 }
-
+.float-left {
+  float: left;
+}
+.float-righ {
+  float: right;
+}
 .logo {
-  width: 100px;
-  /* height: 60px;
-  border: 1px solid black;
-  background-color: white; */
+  width: 15%;
+  background-color: white;
 }
-.logo-img{
-  width: 150px;
-  height: 100px;
+.logo-img {
+  width: 100%;
   padding: 10%;
 }
-.menu {
+/* fine logo */
+
+ul {
+  list-style-type: none;
+}
+.margin {
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  margin: 5px;
+  text-transform: uppercase;
+  color: #858585;
+  font-size: 20px;
+}
+/* fine main */
+
+/* .menu {
   width: 500px;
   height: 40px;
   margin: 1px solid black;
   background-color: white;
   margin-top: 20px;
-}
+} */
 
 /* immagine e descrizione */
 main {
-  height: 600px;
+  width: 100%;
   background-color: #e1d67a;
   margin-top: 20px;
-  border-radius: 20px;
   position: relative;
 }
-
-.description{
-    width: 600px;
-    height: 100px;
-    border: 1px solid black;
-    background-color: white;
-    position: absolute;
-    bottom: 10px;
-    left:0;
+.yoga {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
+
+.description {
+  width: 60%;
+  position: absolute; 
+  bottom: 200px;
+  left: 0;
+  padding: 20px;
+}
+
+.yoga-desc {
+  width: 50%;
+ height: 40px;
+  font-size: 30px;
+}
+.layover{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  position: absolute
+  top: 0;
+  left: 0;
+}
+
 
 /* sezione a colonne */
 article {
@@ -69,12 +103,12 @@ article {
   margin-top: 20px;
   position: relative;
 }
-.square-top{
-    width: 100%;
-    height: 40%;
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 10px;
+.square-top {
+  width: 100%;
+  height: 40%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .container {
@@ -87,12 +121,11 @@ article {
   left: 0;
   right: 0;
 }
-.title{
-    width: 600px;
-    height: 100px;
-    border: 1px solid black;
-    background-color: white;
-    
+.title {
+  width: 600px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: white;
 }
 
 .left {
@@ -131,15 +164,14 @@ footer {
   border: 1px solid #8801fe;
   position: relative;
 }
-.made-by{
+.made-by {
   width: 150px;
   height: 30px;
   border: 1px solid #adcedf;
-  background-color: #adcedf; 
+  background-color: #adcedf;
   margin: 0 auto;
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  
 }
