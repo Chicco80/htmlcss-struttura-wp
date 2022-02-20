@@ -50,15 +50,7 @@ ul {
   color: #858585;
   font-size: 20px;
 }
-/* fine main */
 
-/* .menu {
-  width: 500px;
-  height: 40px;
-  margin: 1px solid black;
-  background-color: white;
-  margin-top: 20px;
-} */
 
 /* immagine e descrizione */
 main {
@@ -79,6 +71,7 @@ main {
   bottom: 200px;
   left: 0;
   padding: 20px;
+  color: white;
 }
 
 .yoga-desc {
@@ -94,67 +87,103 @@ main {
   top: 0;
   left: 0;
 }
-
+/* fine main */
 
 /* sezione a colonne */
 article {
-  height: 600px;
-  background-color: #adcedf;
-  margin-top: 20px;
-  position: relative;
-}
-.square-top {
   width: 100%;
-  height: 40%;
-  border: 1px solid black;
-  background-color: white;
-  border-radius: 10px;
+  height: 600px;
+  /* background-color: #adcedf; */
+  margin-top: 30px;
+  position: relative;
+  
+}
+
+.title {
+  width: 600px;
+  /* height: 100px; */
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  padding: 20px;
+  
 }
 
 .container {
   width: 100%;
-  height: 500px;
-  background-color: #107de6;
-  border: 1px solid #107de6;
+  /* height: 500px; */
+  /* background-color: #107de6; */
+  /* border: 1px solid #107de6; */
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.title {
-  width: 600px;
-  height: 100px;
-  border: 1px solid black;
-  background-color: white;
-}
 
 .left {
   width: 20%;
   height: 450px;
-  border: 1px solid #adcedf;
-  background-color: #adcedf;
+  /* border: 1px solid #010608;
+  background-color: #adcedf; */
   margin-top: 25px;
   margin-bottom: 25px;
   float: left;
 }
+
+.square-top {
+  width: 100%;
+   /* height: 40%;  */
+  /* border: 1px solid black;
+  background-color: white; */
+  border-radius: 10px;
+}
+
+.square-bottom{
+  padding: 10px;
+}
+
+.img-1{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid grey;
+  border-radius: 10px;
+  
+}
+
 .center {
-  width: 55%;
-  height: 450px;
+  width: 645px;
+  /* height: 450px;
   border: 1px solid #adcedf;
-  background-color: #adcedf;
+  background-color: #adcedf; */
   margin: 25px 20px;
   float: left;
 }
+.img-2{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid grey;
+  border-radius: 10px;
+
+  
+}
+
 .right {
   width: 20%;
-  height: 450px;
-  border: 1px solid #adcedf;
-  background-color: #adcedf;
+  /* height: 450px;
+  border: 1px solid grey;
+  background-color: #adcedf; */
   margin-top: 25px;
   margin-bottom: 25px;
   float: right;
 }
 
+.img-3{
+  width: 100%;
+  height: 150px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
 /* ringraziamenti */
 footer {
   width: 100%;
